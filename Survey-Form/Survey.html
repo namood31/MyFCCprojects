@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Survey Form</title>
+   <link rel="stylesheet" href="Survey.css">
+   <link href="https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="main-div">
+     <div class="title-div"><h1 id="title">Coder's Survey Form</h1>
+      <p id="description"> Thanks for filling this survey</p></div>
+      <div class="form-class">
+        <form id="survey-form">
+         <label id="name-label"> Name: </label>
+         <input id="name" type="text" name="Name" placeholder="Full Name" required>
+         <br>
+         <label id="email-label"> Email:
+         </label>
+         <input id="email" placeholder="Email Address" name="Email" type="email" required> <br>
+         <label id="number-label"> Age: </label>
+         <input id="number" type="number" name="Age" placeholder="Your Age" min="0" max="73"><br>
+         <h4>What is your favorite course on FCC</h4>
+         <select id="dropdown"><option value="Web Development">Web Development</option>
+            <option value="Javascipt">Javascipt</option>
+            <option value="Data Visualization">Data Visualization</option>
+            <option value="Data Analysis">Data Analysis</option>
+            <option value="Machine Learning">Machine Learning</option>
+         </select> <br>
+         <h4>Which langauge you prefer the most</h4>
+         <input type="radio" class="radio-input1" name="language" value="Python">
+         <label for="Python"> Python </label> <br>
+         <input type="radio" class="radio-input2" name="language" value="Javascipt">
+         <label for="Javascript"> Javascript </label> <br>
+         <input type="radio" class="radio-input3" name="language" value="C++">
+         <label for="C++"> C++ </label> <br>
+         <input type="radio" class="radio-input4" name="language" value="Kotlin">
+         <label for="Kotlin"> Kotlin </label> <br>
+         <input type="radio" class="radio-input5" name="language" value="C#">
+         <label for="C#"> C# </label> <br>
+          <input type="radio" class="radio-input6" name="language" value="C">
+         <label for="C"> C </label> <br>
+          <input type="radio" class="radio-input7" name="language" value="Java">
+         <label for="Java"> Java </label> <br>
+         <h4>How many courses have you planned to complete this year</h4>
+         <input type="checkbox" value="One">
+         <label >One</label><br> 
+         <input type="checkbox" value="Two">
+         <label >Two</label><br>
+         <input type="checkbox" value="Three">       
+         <label >Three</label><br>
+         <input type="checkbox" value="Four">
+         <label >Four</label><br>
+         <h4> Any Additional Comment?</h4>
+         <textarea name="Comments" placeholder="write your comment here"></textarea> <br>
+         <input type="submit" id="submit">
+
+
+        </form>
+      </div>
+   </div>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
