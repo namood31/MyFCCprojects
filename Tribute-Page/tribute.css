@@ -1,0 +1,53 @@
+body{
+  color: rgba(219,161,65,255);
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  size: 1fr;
+}
+#tribute-info {
+ border-radius: 10px;
+ background-color: rgba(230,230,230,255);
+ margin: auto;
+ padding: 29px;
+ color: #283142;
+ box-shadow: 5px 2px 20px;
+ align-content: center;
+}
+#tribute-link {
+  color: rgba(219,161,65,255);
+  text-align: right;
+}
+#tribute-link:hover {
+  color: red;
+}
+#title {
+  font-size: 50px; 
+}
+#title:hover {
+ color:#283142;
+}
+#tribute-info:hover {
+ border-radius: 10px;
+ background-color: rgba(230,230,230,255);
+ margin: auto;
+ padding: 29px;
+ color: rgba(219,161,65,255);
+ box-shadow: 5px 2px 20px;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  display:block;
+  margin: auto;
+}
+.footer-class:hover {
+  color:#283142;
+}
+
+.about-detail {
+ font-size: 25px;
+ font-weight: bold;
+ margin: 13px;
+ padding: 13px;
+
+}
