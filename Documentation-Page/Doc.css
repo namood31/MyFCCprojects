@@ -1,0 +1,160 @@
+body {
+    background-color:rgb(9, 25, 39);;
+    color: rgb(9, 25, 39);
+    font-size: 157%;
+    background-image: url(Images/bg2.jpg');
+
+}
+span {
+    display: block;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0%;
+}
+main {
+    margin-left: 21%;
+    margin-top: 0%:
+}
+
+#navbar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 195, 221);
+    justify-content: space-around;
+    align-items: center;
+    border-right: black 4px solid;
+    margin-top: 0%;
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+      background-color: rgb(5, 90, 119);
+    }
+  }
+
+ .main-section {
+    background-color: aliceblue;
+    padding: 1px;
+    padding-left: 11px;
+    
+ }
+ 
+ .nav-link {
+    border: 2px black solid;
+    padding-left: 91px;
+    padding-right: 91px;
+    padding-top: 7px;
+    padding-bottom:7px;
+ }
+
+
+ .nav-link2 {
+    border: 2px black solid;
+    padding-left: 118px;
+    padding-right: 118px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
+
+ .nav-link3 {
+    border: 2px black solid;
+    padding-left: 116px;
+    padding-right: 116px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
+
+ .nav-link4 {
+    border: 2px black solid;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-top: 7px;
+    padding-bottom:7px;
+ }
+
+ .nav-link5 {
+    border: 2px black solid;
+    padding-left: 91px;
+    padding-right: 91.5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
+
+ .nav-link6 {
+    border: 2px black solid;
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-top: 7px;
+    padding-bottom:7px;
+ }
+
+
+ .nav-link:hover {
+    border: 0px black solid;
+    padding-left: 91px;
+    padding-right: 91px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8)
+ }
+
+
+ .nav-link2:hover {
+    border: 0px black solid;
+    padding-left: 118px;
+    padding-right: 118px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8)
+ }
+
+ .nav-link3:hover {
+    border: 0px black solid;
+    padding-left: 116px;
+    padding-right: 116px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8)
+ }
+
+ .nav-link4:hover {
+    border: 0px black solid;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8)
+ }
+
+ .nav-link5:hover {
+    border: 0px black solid;
+    padding-left: 91px;
+    padding-right: 91.5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8)
+ }
+
+ .nav-link6:hover {
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    box-shadow: 10px 10px 26px 3px rgb(0, 5, 8);
+    border: 0px rgb(255, 0, 0) solid;
+ }
+
+ .header {
+     background-color: aliceblue;
+     padding: 30px;
+     border: 5px solid black;
+
+
+ }

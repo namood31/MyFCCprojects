@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>CSS Documentation</title>
+    <link rel="stylesheet" type="text/css" href="Doc.css">
+  </head>
+  <body>
+   <nav id="navbar">
+     <div class="header"> <header>CSS Documentation</header></div>
+     <div class="cin"> <a href="#CSS_Introduction" class="nav-link"> CSS Introduction</a> </div>
+      <div class="csy"> <a href="#CSS_Syntex" class="nav-link2"> CSS Syntex</a> </div>
+      <div class="cho"> <a href="#CSS_How_to" class="nav-link3"> CSS How to</a> </div>
+      <div class="cse"> <a href="#CSS_Selectors" class="nav-link4"> CSS Selectors</a> </div>
+      <div class="cba"> <a href="#CSS_Background" class="nav-link5"> CSS Background</a> </div>
+      <div class="cco"> <a href="#CSS_Colors" class="nav-link6"> CSS Colors</a> </div>
+   </nav>
+     <main id="main-doc">
+         <section class="main-section" id="CSS_Introduction">
+             <header><h2> CSS Introduction</h2></header>
+             <div><p>CSS is the language we use to style a Web page.</p>
+               <h4>What Is CSS?</h4>
+               <ul>
+                  <li>CSS stands for Cascading Style Sheets</li>
+                  <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                  <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                  <li>External stylesheets are stored in CSS files</li>
+               </ul>
+               <h4>Why Use CSS?</h4>
+               <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+               <code>
+                  body {
+                  background-color: lightblue;
+                }
+               </code> 
+               <code>
+                h1 {
+                  color: white;
+                  text-align: center;
+                }
+               </code> 
+               <code>
+                p {
+                  font-family: verdana;
+                  font-size: 20px;
+                } 
+               </code>
+            </div>
+         </section>
+         <section class="main-section" id="CSS_Syntex">
+            <header><h2> CSS Syntex</h2></header>
+            <div><p>A CSS rule consists of a selector and a declaration block.</p>
+               <ul>
+                  <li>The selector points to the HTML element you want to style.</li>
+                  <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                  <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                  <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+               </ul>
+               <p>In this example all elements will be center-aligned, with a red text color:</p> <!--Example -->
+               <code> 
+                  p {
+                  color: red;
+                  text-align: center;
+                }
+               </code>
+            </div>
+         </section>
+         <section class="main-section" id="CSS_How_to">
+            <header><h2> CSS How To</h2></header>
+            <h3>How To Add CSS</h3>
+            <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</p>
+            <h4>Three Ways to Insert CSS</h4>
+            <p>There are three ways of inserting a style sheet:</p>
+            <ul>
+               <li>External CSS</li>
+               <li>Internal CSS</li>
+               <li>Inline CSS</li>
+            </ul>
+            <h4>External CSS</h4>
+            <p>With an external style sheet, you can change the look of an entire website by changing just one file!</p>
+            <p>Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</p>
+            <p>An external style sheet can be written in any text editor, and must be saved with a .css extension.</p>
+            <p>The external .css file should not contain any HTML tags.
+
+            </p>
+         </section>
+         <section class="main-section" id="CSS_Selectors">
+            <header><h2> CSS Selectors</h2></header>
+            <p>A CSS selector selects the HTML element(s) you want to style.</p>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+            <h4>The CSS element Selector</h4>
+            <p>The element selector selects HTML elements based on the element name</p>
+            <p>Here, all <p> elements on the page will be center-aligned, with a red text color: </p><!--Example-->
+            <code>p {
+               text-align: center;
+               color: red;
+             }</code>
+             <h4>The CSS id Selector</h4>
+             <p>The id selector uses the id attribute of an HTML element to select a specific element.<br>
+
+               The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+               
+               To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+               
+               </p>
+               <p>The CSS rule below will be applied to the HTML element with id="para1":</p>
+               <code>#para1 {
+                  text-align: center;
+                  color: red;
+                }</code>
+         </section>
+         <section class="main-section" id="CSS_Background">
+            <header><h2> CSS Background</h2></header>
+            <p>The CSS background properties are used to add background effects for elements.</p>
+            <h4>CSS background-color</h4>
+            <p>The background-color property specifies the background color of an element.</p>
+            <p>The background color of a page is set like this:</p><!--Example-->
+            <code>body {
+               background-color: lightblue;
+             }
+            </code>
+         </section>
+         <section class="main-section" id="CSS_Colors">
+            <header><h2> CSS Colors</h2></header> 
+            <p>Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.</p>
+            <h4>CSS Color Names</h4>
+            <p>In CSS, a color can be specified by using a predefined color name:
+               <hr>
+
+               <span>Tomato</span>
+               <span> Orange</span>
+               <span>DodgerBlue</span>
+               <span>MediumSeaGreen</span>
+               <span>Gray</span>
+               <span>SlateBlue</span>
+               <span>Violet</span>
+               <span>LightGray</span>
+            </p>
+            <p>You can set the background color for HTML elements:
+
+            </p>
+          </section>
+     </main>
+  </body>
+ </html>
