@@ -2,7 +2,7 @@ body{
   color: #05c8e6;
   text-align: center;
   font-family: 'Fira Code', monospace;
-  background-color: #283142;
+  background-color: #2F343A;
 }
 .about-detail {
   text-align: center;
@@ -30,15 +30,17 @@ body{
 }
 #title {
   font-size: 50px; 
-  color:#05c8e6;
+  color:#2F343A;
   box-shadow: 5px 2px 20px  #05c8e6;
+  background-color: #05c8e6;
 }
 #image{
   height: auto;
   display:block;
   margin:0 auto;
-  width: 40%;
-  border: 3px solid #05c8e6;
+  width: 20%;
+  border: 7px solid #2F343A;
+  box-shadow: 4px 4px 8px 3px #2F343A;
 }
 .footer-class:hover {
   color:#283142;
@@ -60,4 +62,9 @@ body{
   }
   #title {
   font-size: 25px; 
+}
+
+#img-div {
+
+
 }
